@@ -3,39 +3,662 @@
     "model": "home.newspaper",
     "pk": 1,
     "fields": {
-      "title": "Bitcoin: new financial pyramid or future worldwide currency?",
-      "content": "...",
-      "published_date": "2022-08-08",
-      "topic_id": 1,
-      "publishers": [
-        1
-      ]
+      "title": "The Future of Cryptocurrency Regulations",
+      "content": "An in-depth analysis of how global governments are handling cryptocurrency regulations...",
+      "published_date": "2023-01-05",
+      "topic_id": 13,
+      "publishers": [1, 2]
     }
   },
+  {
+    "model": "home.newspaper",
+    "pk": 2,
+    "fields": {
+      "title": "AI and the Job Market: Threat or Opportunity?",
+      "content": "Experts weigh in on the impact of artificial intelligence on employment trends...",
+      "published_date": "2023-02-15",
+      "topic_id": 11,
+      "publishers": [3, 4]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 3,
+    "fields": {
+      "title": "Space Tourism: The Next Big Industry?",
+      "content": "A look at how companies like SpaceX and Blue Origin are shaping the future of space travel...",
+      "published_date": "2023-03-10",
+      "topic_id": 14,
+      "publishers": [5]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 4,
+    "fields": {
+      "title": "Cybersecurity in 2024: New Threats and Challenges",
+      "content": "How hackers are evolving and what companies are doing to stay ahead...",
+      "published_date": "2023-04-20",
+      "topic_id": 12,
+      "publishers": [6, 7]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 5,
+    "fields": {
+      "title": "The Psychology Behind Social Media Addiction",
+      "content": "Understanding how social media platforms keep users engaged...",
+      "published_date": "2023-05-12",
+      "topic_id": 16,
+      "publishers": [8, 9]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 6,
+    "fields": {
+      "title": "Renewable Energy: Is the World Ready for 100% Sustainability?",
+      "content": "Challenges and opportunities in transitioning to clean energy...",
+      "published_date": "2023-06-30",
+      "topic_id": 10,
+      "publishers": [10, 1]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 7,
+    "fields": {
+      "title": "Ethical Dilemmas in Artificial Intelligence",
+      "content": "Should AI be given rights? Experts discuss the ethical side of machine learning...",
+      "published_date": "2023-07-15",
+      "topic_id": 20,
+      "publishers": [2, 3]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 8,
+    "fields": {
+      "title": "The Rise of Quantum Computing: What You Need to Know",
+      "content": "How quantum computers could revolutionize industries...",
+      "published_date": "2023-08-05",
+      "topic_id": 2,
+      "publishers": [4, 5]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 9,
+    "fields": {
+      "title": "Mental Health in the Digital Age",
+      "content": "How technology is affecting our psychological well-being...",
+      "published_date": "2023-09-20",
+      "topic_id": 16,
+      "publishers": [6, 7]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 10,
+    "fields": {
+      "title": "The Future of Education: Online vs. Traditional Schools",
+      "content": "A deep dive into the benefits and challenges of online learning...",
+      "published_date": "2023-10-11",
+      "topic_id": 9,
+      "publishers": [8, 9]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 11,
+    "fields": {
+      "title": "How Blockchain is Changing the Financial World",
+      "content": "Beyond Bitcoin: The many uses of blockchain technology...",
+      "published_date": "2023-11-22",
+      "topic_id": 13,
+      "publishers": [10, 1]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 12,
+    "fields": {
+      "title": "The Growing Influence of Biotech in Healthcare",
+      "content": "Genetic engineering, CRISPR, and the future of medicine...",
+      "published_date": "2023-12-05",
+      "topic_id": 15,
+      "publishers": [2, 3]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 13,
+    "fields": {
+      "title": "Astrophysics Breakthrough: New Exoplanet Discovered",
+      "content": "Scientists discover a potentially habitable planet...",
+      "published_date": "2024-01-14",
+      "topic_id": 21,
+      "publishers": [4, 5]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 14,
+    "fields": {
+      "title": "The Rise of Electric Vehicles: Is Gasoline Dead?",
+      "content": "EVs are taking over. What does this mean for traditional automakers?",
+      "published_date": "2024-02-10",
+      "topic_id": 6,
+      "publishers": [6, 7]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 15,
+    "fields": {
+      "title": "The Dark Side of Fast Food: A Health Crisis?",
+      "content": "How processed foods are contributing to global health problems...",
+      "published_date": "2024-03-12",
+      "topic_id": 19,
+      "publishers": [8, 9]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 16,
+    "fields": {
+      "title": "5G and the Future of Mobile Connectivity",
+      "content": "How 5G networks are transforming communication and industries...",
+      "published_date": "2024-04-05",
+      "topic_id": 3,
+      "publishers": [1, 5]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 17,
+    "fields": {
+      "title": "The Ethics of Genetic Modification in Humans",
+      "content": "A deep dive into the moral implications of CRISPR and gene editing...",
+      "published_date": "2024-04-20",
+      "topic_id": 15,
+      "publishers": [3, 7]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 18,
+    "fields": {
+      "title": "The Hidden Dangers of AI-Powered Deepfakes",
+      "content": "How deepfake technology is reshaping media, security, and trust...",
+      "published_date": "2024-05-10",
+      "topic_id": 20,
+      "publishers": [2, 6]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 19,
+    "fields": {
+      "title": "Self-Driving Cars: Are We Ready?",
+      "content": "The challenges and legal implications of autonomous vehicles...",
+      "published_date": "2024-06-15",
+      "topic_id": 8,
+      "publishers": [4, 10]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 20,
+    "fields": {
+      "title": "VR and AR: The Next Computing Revolution?",
+      "content": "How virtual and augmented reality are shaping the future of technology...",
+      "published_date": "2024-07-01",
+      "topic_id": 5,
+      "publishers": [9, 3]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 21,
+    "fields": {
+      "title": "The Global Semiconductor Shortage: When Will It End?",
+      "content": "A look at the worldwide chip crisis affecting industries...",
+      "published_date": "2024-07-20",
+      "topic_id": 4,
+      "publishers": [7, 1]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 22,
+    "fields": {
+      "title": "How Cryptography is Protecting Our Digital World",
+      "content": "Exploring encryption methods and cybersecurity practices...",
+      "published_date": "2024-08-10",
+      "topic_id": 12,
+      "publishers": [5, 6]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 23,
+    "fields": {
+      "title": "Can Renewable Energy Replace Fossil Fuels?",
+      "content": "The latest breakthroughs in solar, wind, and hydro power...",
+      "published_date": "2024-08-25",
+      "topic_id": 10,
+      "publishers": [8, 2]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 24,
+    "fields": {
+      "title": "The Rise of Smart Homes: Convenience or Security Risk?",
+      "content": "How IoT devices are changing the way we live...",
+      "published_date": "2024-09-12",
+      "topic_id": 7,
+      "publishers": [10, 4]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 25,
+    "fields": {
+      "title": "The Future of Space Mining: Science Fiction or Reality?",
+      "content": "A look at how asteroid mining could change the economy...",
+      "published_date": "2024-10-02",
+      "topic_id": 21,
+      "publishers": [1, 5]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 26,
+    "fields": {
+      "title": "The Rise of Personal AI Assistants",
+      "content": "How AI-driven virtual assistants are improving daily productivity...",
+      "published_date": "2024-10-18",
+      "topic_id": 2,
+      "publishers": [3, 9]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 27,
+    "fields": {
+      "title": "The Psychology of Online Shopping Addiction",
+      "content": "Why we can't resist the 'Buy Now' button...",
+      "published_date": "2024-11-05",
+      "topic_id": 16,
+      "publishers": [7, 10]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 28,
+    "fields": {
+      "title": "The Role of AI in Modern Healthcare",
+      "content": "How machine learning is revolutionizing diagnostics and treatment...",
+      "published_date": "2024-11-22",
+      "topic_id": 15,
+      "publishers": [2, 6]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 29,
+    "fields": {
+      "title": "Climate Change and Rising Sea Levels",
+      "content": "How coastal cities are preparing for a future underwater...",
+      "published_date": "2024-12-10",
+      "topic_id": 19,
+      "publishers": [8, 4]
+    }
+  },
+  {
+    "model": "home.newspaper",
+    "pk": 30,
+    "fields": {
+      "title": "The Evolution of Online Privacy Laws",
+      "content": "A comparison of global approaches to digital rights and privacy...",
+      "published_date": "2024-12-22",
+      "topic_id": 12,
+      "publishers": [1, 9]
+    }
+  },
+
   {
     "model": "home.redactor",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$320000$6uM28XWOFX6ewyloJzjqmt$L+ZhofPylneoaL2iZS4sZu4ZMUNb4oIevfAdzOMn/eE=",
+      "password": "pbkdf2_sha256$320000$randomhash1",
       "last_login": "2022-08-08T14:14:03Z",
       "is_superuser": false,
-      "username": "jack_black",
-      "first_name": "Jack",
-      "last_name": "Black",
-      "email": "jack.black@agency.com",
+      "username": "alice_smith",
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "email": "alice.smith@news.com",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2022-08-08T13:58:29Z",
-      "years_of_experience": 10,
+      "date_joined": "2022-06-12T10:30:15Z",
+      "years_of_experience": 5,
       "groups": [],
       "user_permissions": []
     }
   },
   {
-    "model": "home.topic",
-    "pk": 1,
+    "model": "home.redactor",
+    "pk": 2,
     "fields": {
-      "name": "financial"
+      "password": "pbkdf2_sha256$320000$randomhash2",
+      "last_login": "2022-07-10T16:05:22Z",
+      "is_superuser": false,
+      "username": "bob_jones",
+      "first_name": "Bob",
+      "last_name": "Jones",
+      "email": "bob.jones@media.org",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-05-20T09:14:00Z",
+      "years_of_experience": 12,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash3",
+      "last_login": "2022-08-02T11:22:45Z",
+      "is_superuser": false,
+      "username": "charlie_davis",
+      "first_name": "Charlie",
+      "last_name": "Davis",
+      "email": "charlie.davis@press.net",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-11-15T08:45:30Z",
+      "years_of_experience": 8,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash4",
+      "last_login": "2022-08-15T19:30:10Z",
+      "is_superuser": false,
+      "username": "danielle_wilson",
+      "first_name": "Danielle",
+      "last_name": "Wilson",
+      "email": "danielle.wilson@newsportal.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-03-27T14:10:00Z",
+      "years_of_experience": 15,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash5",
+      "last_login": "2022-08-07T08:12:34Z",
+      "is_superuser": false,
+      "username": "edward_martin",
+      "first_name": "Edward",
+      "last_name": "Martin",
+      "email": "edward.martin@journalist.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-10T17:50:00Z",
+      "years_of_experience": 3,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash6",
+      "last_login": "2022-08-09T20:45:19Z",
+      "is_superuser": false,
+      "username": "fiona_clark",
+      "first_name": "Fiona",
+      "last_name": "Clark",
+      "email": "fiona.clark@editorial.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-07-08T11:20:05Z",
+      "years_of_experience": 18,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash7",
+      "last_login": "2022-08-11T07:50:30Z",
+      "is_superuser": false,
+      "username": "george_evans",
+      "first_name": "George",
+      "last_name": "Evans",
+      "email": "george.evans@newsline.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-12-30T23:59:59Z",
+      "years_of_experience": 7,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash8",
+      "last_login": "2022-08-04T15:22:10Z",
+      "is_superuser": false,
+      "username": "hannah_green",
+      "first_name": "Hannah",
+      "last_name": "Green",
+      "email": "hannah.green@dailyreport.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-04-05T09:10:45Z",
+      "years_of_experience": 2,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash9",
+      "last_login": "2022-08-10T14:00:00Z",
+      "is_superuser": false,
+      "username": "ian_walker",
+      "first_name": "Ian",
+      "last_name": "Walker",
+      "email": "ian.walker@mediahub.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2017-09-23T18:30:00Z",
+      "years_of_experience": 20,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "home.redactor",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$randomhash10",
+      "last_login": "2022-08-06T06:30:15Z",
+      "is_superuser": false,
+      "username": "jessica_hall",
+      "first_name": "Jessica",
+      "last_name": "Hall",
+      "email": "jessica.hall@press.org",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-02-14T12:45:00Z",
+      "years_of_experience": 9,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "home.topic",
+    "pk": 2,
+    "fields": {
+      "name": "Technology"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 3,
+    "fields": {
+      "name": "Science"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 4,
+    "fields": {
+      "name": "Health"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 5,
+    "fields": {
+      "name": "Business"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 6,
+    "fields": {
+      "name": "Entertainment"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 7,
+    "fields": {
+      "name": "Sports"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 8,
+    "fields": {
+      "name": "Politics"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 9,
+    "fields": {
+      "name": "Education"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 10,
+    "fields": {
+      "name": "Environment"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 11,
+    "fields": {
+      "name": "Artificial Intelligence"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 12,
+    "fields": {
+      "name": "Cybersecurity"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 13,
+    "fields": {
+      "name": "Cryptocurrency"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 14,
+    "fields": {
+      "name": "Space Exploration"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 15,
+    "fields": {
+      "name": "Biotechnology"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 16,
+    "fields": {
+      "name": "Psychology"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 17,
+    "fields": {
+      "name": "History"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 18,
+    "fields": {
+      "name": "Philosophy"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 19,
+    "fields": {
+      "name": "Food Science"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 20,
+    "fields": {
+      "name": "Ethics"
+    }
+  },
+  {
+    "model": "home.topic",
+    "pk": 21,
+    "fields": {
+      "name": "Astrophysics"
     }
   }
 ]

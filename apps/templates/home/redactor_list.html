@@ -1,0 +1,19 @@
+{% extends "home/page-template.html" %}
+
+
+  {% block header_title %}
+    Redactors
+  {% endblock header_title %}
+
+{% block inner_content %}
+  <br>
+  <ul>
+    {% for redactor in object_list %}
+      <li>
+        <a href="{% url "redactor_detail" pk=redactor.id %}">{{ redactor.username }}</a>
+        {{ redactor.first_name }} {{ redactor.last_name }} {{ redactor.years_of_experience }}
+      </li>
+    {% endfor %}
+  </ul>
+{#  {% include 'includes/pagination.html' %}#}
+{% endblock inner_content%}

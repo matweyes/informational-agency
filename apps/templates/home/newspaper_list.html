@@ -1,0 +1,31 @@
+{% extends "home/page-template.html" %}
+
+
+{% block header_title %}
+  News
+{% endblock header_title %}
+
+{% block inner_content %}
+  <br>
+  <ul>
+    {% for newspaper in object_list %}
+      <li>
+        <a href="{% url "newspaper_detail" pk=newspaper.id %}">{{ newspaper.title.capitalize }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  {#  {% include 'includes/pagination.html' %}#}
+{% endblock inner_content %}
+{#  <a href="{% url "taxi:car-detail" pk=car.id %} ">{{ car.id }}</a>#}
+
+{#  <table>#}
+{#    <br>#}
+{#    #}
+{#      <tr>#}
+{#        <td>{{ newspaper.title.capitalize }}</td>#}
+{#        <td>{{ newspaper.published_date.capitalize }}</td>#}
+{#        <td>{{ newspaper.topic.capitalize }}</td>#}
+{#        <td>{{ newspaper.title.capitalize }}</td>#}
+{#      </tr>#}
+{#    {% endfor %}#}
+{#  </table>#}

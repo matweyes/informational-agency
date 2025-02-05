@@ -52,13 +52,23 @@ def pages(request):
 class TopicListView(ListView):
     model = Topic
     template_name = "home/topic_list.html"
-    context_object_name = "topics"
+    context_object_name = "topic_list"
+    queryset = Topic.objects.all().order_by("name")
+    # paginate_by = 5
+
+
+class TopicDetailView(DetailView):
+    model = Topic
+    template_name = "home/topic_detail.html"
+    context_object_name = "topic"
 
 
 class NewspaperListView(ListView):
     model = Newspaper
     template_name = "home/newspaper_list.html"
-    context_object_name = "newspapers"
+    context_object_name = "newspaper_list"
+    queryset = Newspaper.objects.all().order_by("title")
+    # paginate_by = 5
 
 
 class NewspaperDetailView(DetailView):
@@ -71,6 +81,8 @@ class RedactorListView(ListView):
     model = Redactor
     template_name = "home/redactor_list.html"
     context_object_name = "redactors"
+    queryset = Redactor.objects.all().order_by("username")
+    # paginate_by = 5
 
 
 class RedactorDetailView(DetailView):

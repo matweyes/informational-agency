@@ -1,0 +1,16 @@
+{% extends 'home/page-template.html' %}
+
+{% block header_title %}
+  {{ newspaper.title.capitalize }}
+{% endblock header_title %}
+
+{% block inner_content %}
+  <br>
+  <p>{{ newspaper.published_date }}, {{ newspaper.topic }}</p>
+  <p>{{ newspaper.content }}</p>
+  {% for redactor in newspaper.publishers.all %}
+    <ol>
+      <li>{{ redactor }}</li>
+    </ol>
+  {% endfor %}
+{% endblock inner_content %}

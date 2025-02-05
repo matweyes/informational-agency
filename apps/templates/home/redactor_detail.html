@@ -1,0 +1,17 @@
+{% extends "home/page-template.html" %}
+
+{% block header_title %}
+  {{ redactor.username }}
+{% endblock header_title %}
+
+{% block inner_content %}
+  <br>
+  <h1>{{ redactor.first_name }} {{ redactor.last_name }}</h1>
+  <p>Years of experience: {{ redactor.years_of_experience }}</p>
+  {#  {% include 'includes/pagination.html' %}#}
+  {% for newspaper in redactor.newspapers.all %}
+    <ol>
+      <li><a href="{% url "newspaper_detail" pk=newspaper.id %}">{{ newspaper.title }}</a> {{ newspaper.topic }}</li>
+    </ol>
+  {% endfor %}
+{% endblock inner_content %}

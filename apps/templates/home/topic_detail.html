@@ -1,0 +1,17 @@
+{% extends "home/page-template.html" %}
+
+{% block header_title %}
+  {{ topic.name.capitalize }}
+{% endblock header_title %}
+
+{% block inner_content %}
+  <br>
+  <ol>
+    {% for newspaper in topic.newspapers.all %}
+      <li>
+        <a href="">{{ newspaper.title.capitalize }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+  {#  {% include 'includes/pagination.html' %}#}
+{% endblock inner_content %}
